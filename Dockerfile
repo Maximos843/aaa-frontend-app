@@ -5,7 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # RUN python -m pip install --upgrade pip
 RUN mkdir /app
 
-COPY ./requirements.txt ./requirements-dev.txt /app
+COPY ./requirements.txt ./requirements-dev.txt /app/
 
 WORKDIR /app
 
