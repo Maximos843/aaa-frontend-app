@@ -22,7 +22,7 @@ class PolygonDrawer:
 
     @staticmethod
     def coords_to_box(coords: Coords) -> Box:
-        """Convert EasyOCR coords to PIL box format"""
+        """Convert EasyOCR coords to PIL box format """
         return coords[0][0], coords[0][1], coords[2][0], coords[2][1]
 
     def highlight_word(self, coords: Coords, word: str) -> None:
